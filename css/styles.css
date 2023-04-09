@@ -97,13 +97,19 @@ body {
   background-color: var(--color-navy-blue);
 }
 .hero-title {
+  width: 496px;
   color: var(--color-white);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 48px;
+  outline: solid tomato;
 }
 .hero-button {
+  border: none;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   color: var(--color-white);
