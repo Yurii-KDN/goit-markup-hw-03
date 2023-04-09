@@ -104,8 +104,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-top: 0;
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
   outline: solid tomato;
 }
 .hero-button {
@@ -113,6 +112,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
+  margin: 0 auto;
   font-family: inherit;
   font-weight: 500;
   color: var(--color-white);
