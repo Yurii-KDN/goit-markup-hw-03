@@ -167,6 +167,7 @@ body {
   background-color: var(--color-white);
 }
 .team-card-content {
+  border-radius: 0 0 4px 4px;
   padding: 32px 16px;
 }
 .item-team-title {
