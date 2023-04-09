@@ -24,6 +24,11 @@
   margin: 0;
 }
 .section-title {
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 72px;
+  margin-left: auto;
+
   color: var(--color-navy-blue);
   font-size: 36px;
   line-height: 1.11;
@@ -146,6 +151,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* Work section */
+.section-work {
+  padding-bottom: 120px;
 }
 
 /* Our team */
