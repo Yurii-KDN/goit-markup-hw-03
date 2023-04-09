@@ -246,10 +246,12 @@ body {
 }
 /* Portfolio gallery */
 .portfolio-card-content {
-  padding: 32px 0;
+  border: 1px solid var(--color-cornflower);
+  padding: 32px 16px;
 }
 .portfolio-title {
   margin-top: 0;
+
   margin-bottom: 8px;
   font-weight: 500;
   color: var(--color-navy-blue);
@@ -258,6 +260,8 @@ body {
   letter-spacing: 0.02em;
 }
 .portfolio-text {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--color-slate);
   font-size: 16px;
   line-height: 1.5;
