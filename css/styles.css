@@ -96,9 +96,6 @@ body {
   display: flex;
 }
 .nav-list-item {
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 40px;
 }
 .nav-list-item:last-child {
@@ -106,6 +103,9 @@ body {
 }
 
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   color: var(--color-navy-blue);
   line-height: 1.5;
