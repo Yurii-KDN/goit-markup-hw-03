@@ -71,6 +71,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.nav-menu .logo {
+  margin-right: 76px;
+}
 .logo-header {
   color: var(--color-navy-blue);
 }
@@ -79,13 +82,20 @@ body {
 }
 
 /* Navigation */
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .nav-menu {
   display: flex;
 }
-.nav-menu-item {
+.nav-list {
+  display: flex;
+}
+.nav-list-item {
   margin-right: 40px;
 }
-.nav-menu-item:last-child {
+.nav-list-item:last-child {
   margin-right: 0;
 }
 
