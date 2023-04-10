@@ -59,6 +59,8 @@ body {
 /* Header */
 .header {
   border-bottom: 1px solid var(--color-cornflower);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 /* Logo */
 .logo {
@@ -94,8 +96,6 @@ body {
 
 .nav-list {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-list-item {
   margin-right: 40px;
