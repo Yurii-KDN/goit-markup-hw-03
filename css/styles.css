@@ -92,13 +92,14 @@ body {
 
 .nav-list {
   display: flex;
+  gap: 40px;
 }
-.nav-list-item {
+/* .nav-list-item {
   margin-right: 40px;
 }
 .nav-list-item:last-child {
   margin-right: 0;
-}
+} */
 
 .nav-link {
   display: block;
@@ -123,14 +124,15 @@ body {
 
 .contacts-list {
   display: flex;
+  gap: 40px;
 }
 
-.contacts-list-item {
+/* .contacts-list-item {
   margin-right: 40px;
 }
 .contacts-list-item:last-child {
   margin-right: 0;
-}
+} */
 
 .contacts-list-item .contacts {
   font-style: normal;
@@ -193,13 +195,14 @@ body {
 
 .benefits-list {
   display: flex;
+  gap: 24px;
 }
-.benefits-item {
+/* .benefits-item {
   margin-right: 24px;
-}
-.benefits-item:last-child {
+} */
+/* .benefits-item:last-child {
   margin-right: 0;
-}
+} */
 .benefits-item {
   width: calc((100%-72px) / 4);
 }
@@ -228,14 +231,15 @@ body {
 
 .work-list {
   display: flex;
+  gap: 24px;
 }
 .work-list-item {
-  margin-right: 24px;
+  /* margin-right: 24px; */
   width: calc((100%-48px) / 3);
 }
-.work-list-item:last-child {
+/* .work-list-item:last-child {
   margin-right: 0;
-}
+} */
 
 /* Our team */
 .section-team {
@@ -244,15 +248,16 @@ body {
 }
 .team-list {
   display: flex;
+  gap: 24px;
 }
 .team-item {
   width: calc((100%-72px) / 4);
-  margin-right: 24px;
+  /* margin-right: 24px; */
   background-color: var(--color-white);
 }
-.team-item:last-child {
+/* .team-item:last-child {
   margin-right: 0;
-}
+} */
 .team-card-content {
   border-radius: 0 0 4px 4px;
   padding: 32px 16px;
@@ -310,10 +315,10 @@ body {
 }
 /* .portfolio-filtr-item {
   margin-right: 24px;
-} */
+}
 .portfolio-filtr-item:last-child {
   margin-right: 0;
-}
+} */
 .portfolio-filtr-button {
   border-radius: 4px;
   border: 1px solid var(--color-cornflower);
