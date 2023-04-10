@@ -72,6 +72,7 @@ body {
   text-transform: uppercase;
 }
 .nav-menu .logo {
+  align-items: center;
   margin-right: 76px;
 }
 .logo-header {
@@ -94,6 +95,8 @@ body {
 }
 .nav-list-item {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-list-item:last-child {
   margin-right: 0;
