@@ -186,8 +186,22 @@ body {
 .section-benefits {
   padding: 120px 0;
 }
+
+.benefits-list {
+  display: flex;
+}
+.benefits-item {
+  margin-right: 24px;
+}
+.benefits-item:last-child {
+  margin-right: 0;
+}
+.benefits-item {
+  width: calc((100%-72px) / 4);
+}
 .benefit-title {
   padding: 0;
+  margin-top: 0;
   margin-bottom: 8px;
   font-weight: 500;
   color: var(--color-navy-blue);
