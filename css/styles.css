@@ -118,6 +118,9 @@ body {
 }
 
 /* Contacts */
+.contacts {
+  margin-left: auto;
+}
 
 .contacts-list {
   display: flex;
