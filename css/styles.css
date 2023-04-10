@@ -90,13 +90,14 @@ body {
 .nav-menu {
   display: flex;
 }
+
 .nav-list {
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-list-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-list-item:last-child {
   margin-right: 0;
