@@ -222,6 +222,17 @@ body {
   padding-bottom: 120px;
 }
 
+.work-list {
+  display: flex;
+}
+.work-list-item {
+  margin-right: 24px;
+  width: calc((100%-48px) / 3);
+}
+.work-list-item:last-child {
+  margin-right: 0;
+}
+
 /* Our team */
 .section-team {
   padding: 120px 0;
