@@ -127,8 +127,6 @@ body {
 }
 
 .contacts-list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-right: 40px;
 }
 .contacts-list-item:last-child {
