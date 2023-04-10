@@ -79,6 +79,16 @@ body {
 }
 
 /* Navigation */
+.nav-menu {
+  display: flex;
+}
+.nav-menu-item {
+  margin-right: 40px;
+}
+.nav-menu-item:last-child {
+  margin-right: 0;
+}
+
 .nav-link {
   font-weight: 500;
   color: var(--color-navy-blue);
