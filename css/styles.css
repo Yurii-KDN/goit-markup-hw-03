@@ -238,8 +238,16 @@ body {
   padding: 120px 0;
   background-color: var(--color-cloud);
 }
+.team-list {
+  display: flex;
+}
 .team-item {
+  width: calc((100%-72px) / 4);
+  margin-right: 24px;
   background-color: var(--color-white);
+}
+.team-item:last-child {
+  margin-right: 0;
 }
 .team-card-content {
   border-radius: 0 0 4px 4px;
