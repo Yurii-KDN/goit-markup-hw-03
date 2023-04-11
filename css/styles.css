@@ -56,7 +56,8 @@ body {
 }
 /* Header */
 .header {
-  border-bottom: 1px solid var(--color-cornflower);
+  border-bottom: 1px solid;
+  border-bottom-color: var(--color-cornflower);
 }
 /* Logo */
 .logo {
@@ -134,7 +135,7 @@ body {
   margin-right: 0;
 } */
 
-.contacts-list-item .contacts {
+.contacts .contacts-list-item {
   font-style: normal;
 }
 .contact-link {
@@ -189,6 +190,21 @@ body {
 }
 
 /* Our benefits */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-benefits {
   padding: 120px 0;
 }
@@ -254,12 +270,12 @@ body {
   width: calc((100%-72px) / 4);
   /* margin-right: 24px; */
   background-color: var(--color-white);
+  border-radius: 0 0 4px 4px;
 }
 /* .team-item:last-child {
   margin-right: 0;
 } */
 .team-card-content {
-  border-radius: 0 0 4px 4px;
   padding: 32px 16px;
 }
 .item-team-title {
@@ -321,7 +337,8 @@ body {
 } */
 .portfolio-filtr-button {
   border-radius: 4px;
-  border: 1px solid var(--color-cornflower);
+  border: 1px solid;
+  border-color: var(--color-cornflower);
   padding: 12px 24px;
   font-family: inherit;
   font-weight: 500;
@@ -335,7 +352,8 @@ body {
 
 .portfolio-filtr-button:hover,
 .portfolio-filtr-button:focus {
-  border: 1px solid transparent;
+  border: 1px solid;
+  border-color: transparent;
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
@@ -357,7 +375,8 @@ body {
   margin-bottom: 0;
 } */
 .portfolio-card-content {
-  border: 1px solid var(--color-cornflower);
+  border: 1px solid;
+  border-color: var(--color-cornflower);
   border-top: none;
   padding: 32px 16px;
 }
